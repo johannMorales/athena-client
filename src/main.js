@@ -2,6 +2,11 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import VueDummy from "vue-dummy";
+
+import "./styles/main.scss";
+
+Vue.use(VueDummy);
 
 Vue.config.productionTip = false;
 
